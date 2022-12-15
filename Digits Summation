@@ -5,7 +5,7 @@
 using namespace std;
 int main() {
 int num1,num2;
-cout<<" enter tow numbers  :) "<<endl;
+cout<<" enter two numbers  :) "<<endl;
 cin>>num1>>num2;
 int lastnum1 = num1%10;
 int lastnum2 = num2%10;
