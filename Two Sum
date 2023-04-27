@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+     int nums[] = {3,2,4};
+    int target=6;
+    int count=sizeof(nums)/sizeof(nums[0]);
+    int a,b;
+    for (int i=0; i <count; i++)
+    {
+        for (int j = 0; j <count; j++)
+        {
+            if ((nums[i]+nums[j])==target)
+            {
+                a=i;
+                b=j;
+            }
+            
+        }
+        
+    }
+    cout<<"["<<b<<","<<a<<"]";
+}
