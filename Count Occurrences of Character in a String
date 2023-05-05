@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main(){
+string str="Hello world!!";
+char ch;
+int count;
+// int len=str.length();
+cout<<"enter charachter"<<endl;
+cin>>ch;
+for(int i=0;i<str[i]!='\0';i++){
+    if(str[i]==ch){
+        count++;
+        
+    }
+    
+}
+ if(count==0)
+   {
+        cout<<"\nGiven character [ "<<ch<<" ] not found.\n";
+   }
+   else
+   {
+        cout<<"\nNo. of Occurrences of [ " <<ch<<" ] is :: "<<count<<" times.\n";
+   }
+}
